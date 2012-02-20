@@ -18,3 +18,8 @@ F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\bin\De
 F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\ResolveAssemblyReference.cache
 F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.dll
 F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.pdb
+C:\r\proj\BlogBackupr\BlogScraper\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.dll
+C:\r\proj\BlogBackupr\BlogScraper\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.pdb
+C:\r\proj\BlogBackupr\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\ResolveAssemblyReference.cache
+C:\r\proj\BlogBackupr\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.dll
+C:\r\proj\BlogBackupr\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.pdb

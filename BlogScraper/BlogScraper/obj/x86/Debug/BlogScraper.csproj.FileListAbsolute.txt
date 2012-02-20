@@ -19,3 +19,14 @@ F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\BlogScraper\obj\x86\Debug\Resol
 C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\BlogScraper\bin\Debug\BlogScraper.exe.config
 C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\BlogScraper\bin\Debug\HtmlAgilityPack.pdb
 C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\BlogScraper\bin\Debug\HtmlAgilityPack.xml
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\BlogScraper.exe.config
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\obj\x86\Debug\BlogScraper.exe
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\obj\x86\Debug\BlogScraper.pdb
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\BlogScraper.exe
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\BlogScraper.pdb
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\CoadTools.WebZapper.dll
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\HtmlAgilityPack.dll
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\CoadTools.WebZapper.pdb
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\HtmlAgilityPack.pdb
+C:\r\proj\BlogBackupr\BlogScraper\BlogScraper\bin\Debug\HtmlAgilityPack.xml

@@ -16,8 +16,18 @@ namespace BlogScraper
 	{
 		static void Main(string[] args)
 		{
-            List<string> postUrls = GetAllPostUrls();
+            List<string> postUrls;
+            if (!File.Exists(Environment.CurrentDirectory + "\\log.txt"))
+            {
+                postUrls = GetAllPostUrls();
+            }
 
+            else
+            {
+                string fileTxt;
+                fileTxt = File.ReadAllText(ConfigurationManager.AppSettings["urlsPath"]);
+                postUrls = new List<string>(fileTxt.Split("\r\n".ToCharArray()));
+            }
             WebClient wc = new WebClient();
             int p, fn = 0;
             wc.Proxy = null;
