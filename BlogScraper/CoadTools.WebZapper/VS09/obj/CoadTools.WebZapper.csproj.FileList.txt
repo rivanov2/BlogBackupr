@@ -1,0 +1,5 @@
+bin\Debug\CoadTools.WebZapper.dll
+bin\Debug\CoadTools.WebZapper.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CoadTools.WebZapper.dll
+obj\Debug\CoadTools.WebZapper.pdb

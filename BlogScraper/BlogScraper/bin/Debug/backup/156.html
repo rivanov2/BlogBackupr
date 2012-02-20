@@ -1,0 +1,729 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head><meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8;"><meta name="robots" content="index,follow">
+<meta name="GENERATOR" content="Telligent Community 5.6.583.21163 (Build: 5.6.583.21163)">
+<link rel="pingback" href="http://blogs.msdn.com/b/noahc/pingback.aspx">
+<link href="http://i1.blogs.msdn.com/rrcontent/d5c7113a2503c72ee822756a5cae4c5c-a5603d3c12c6590e69e2192cda94f488-RequestReducedStyle.css" rel="Stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Site Home (RSS 2.0)" href="http://blogs.msdn.com/rss.aspx">
+<link rel="alternate" type="application/rss+xml" title="noahc&#39;s Comments (RSS 2.0)" href="/members/noahc/comments/rss.aspx">
+<link rel="alternate" type="application/rss+xml" title="noahc&#39;s Activities (RSS 2.0)" href="/members/noahc/activities/rss.aspx">
+<link rel="alternate" type="application/rss+xml" title="Activities of People noahc Follows (RSS 2.0)" href="/members/noahc/activities/followersrss.aspx">
+<link rel="alternate" type="application/rss+xml" title="noahc&#39;s Groups Activities (RSS 2.0)" href="/members/noahc/activities/groupsrss.aspx">
+<link rel="alternate" type="application/rss+xml" title="Noah Coad (RSS 2.0)" href="http://feeds.feedburner.com/NoahCoad">
+<link rel="alternate" type="application/rss+xml" title="Noah Coad - All Comments (RSS 2.0)" href="http://blogs.msdn.com/b/noahc/rsscomments.aspx">
+<link rel="alternate" type="application/rss+xml" title="Is connecting to TFS automatically, slowing VS from loading? - Comments for this post (RSS 2.0)" href="http://blogs.msdn.com/b/noahc/rsscomments.aspx?WeblogPostID=648008">
+
+            
+        
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          <link rel="shortcut icon" type="image/ico" href="/themes/MSDN2/favicon.ico">
+          <link href="http://i1.blogs.msdn.com/rrcontent/f508f4a77a2c4eae0ce5dc1f6ebfdbe3-2e9d3fb6b87b98c0a2d004eec903978e-RequestReducedStyle.css" rel="Stylesheet" type="text/css"><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+          
+          
+        
+          <link type="text/css" rel="stylesheet" href="/themes/MSDN2/css/DynamicStyle.aspx?PreviewKey=0" media="screen,print">
+          <link type="text/css" rel="stylesheet" href="/themes/blogs/MSDN2/css/DynamicStyle.aspx?WeblogID=3849&PreviewKey=0" media="screen,print">
+        
+          <!--[if lte IE 6]>
+              <link type="text/css" rel="stylesheet" href="/themes/MSDN2/css/ie6.css" media="screen,print" />
+          <![endif]-->
+          
+        <meta name="msvalidate.01" content="B717AD6FC29D3A844832AF011B5F9E4C">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blogs.msdn.com/b/noahc/rsd.ashx">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://blogs.msdn.com/b/noahc/wlwmanifest.ashx">
+
+        <script src="http://i1.blogs.msdn.com/rrcontent/a8b00aaa2a23f2191d770c0610d2003a-d98c1dd4008f04b2e9800998ecf8427e-RequestReducedScript.js" type="text/javascript"></script>
+    <title>
+	Is connecting to TFS automatically, slowing VS from loading? - Noah Coad - Site Home - MSDN Blogs
+</title></head>
+	<body spellcheck="true">
+		<form name="aspnetForm" method="post" action="/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_answer" id="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_answer" value="">
+<input type="hidden" name="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_encrypted" id="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_encrypted" value="QwnKcpkQJnx3VvCYJ/0Iwt8bkwk4wmUHytsxSmVp68U=">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM5OTAxNDYyNWRkvI787cXLvh9XHlDReEjVejxzcZ4=">
+</div>
+
+
+<script src="http://i1.blogs.msdn.com/rrcontent/1d231f1e0337d43723380e38a00ee0ba-689bcf44e57512e814b154117ddc9341-RequestReducedScript.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+			
+            
+                
+            
+            <div class="header-fragments-header"></div>
+<div class="header-fragments"><div class="header-fragment-outer top-bar msdn-header-fragment-outer msdn-top-bar"><div class="header-fragment-inner top-bar msdn-header-fragment-inner msdn-top-bar"><div class="header-fragment welcome-message" id="header-fragment-1402503690">
+
+
+<!-- always render -->
+</div><div class="header-fragment login-logout" id="header-fragment-1402503691">
+
+
+
+
+
+        <div class="navigation-list-header"></div>
+        <ul class="navigation-list">
+
+            <li class="navigation-item">
+                <span id="ctl00_header_fragment_1402503691__99b325_ctl00_ctl02_ctl05_WLIDLoginButton1" class="internal-link live-id-button"><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1329715458&rver=6.0.5286.0&wp=MBI&wreply=http:%2F%2Fblogs.msdn.com%2Fb%2Fnoahc%2Farchive%2F2006%2F06%2F26%2Fis-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&lc=1033&id=271611">Sign In</a></span>
+            </li>
+        </ul>
+        <div class="navigation-list-footer"></div>
+    </div><div class="header-fragment user-welcome-without-login" id="header-fragment-1402503692">
+
+ &nbsp;<!-- always render -->
+
+</div></div></div><div class="header-fragment blog-banner" id="header-fragment-1402503693">
+
+
+
+<div class="site-banner blog-banner">
+
+<h1 class="blog-banner-name"><a href="/b/noahc/">Noah Coad</a></h1>
+<div class="blog-banner-description">A Microsoft Program Manager on Visual Studio Platform (and an underground coder, lifehacker, hockey player)</div>
+</div>
+
+</div></div>
+<div class="header-fragments-footer"></div>
+			
+    <div class="content-fragment-page post" id="ctl00_content_ctl00_page"><div class="layout">
+<div class="layout-header"></div>
+<div class="layout-content content-left-sidebar-right" id="ctl00_content_ctl00_layout">
+<div class="layout-region right-sidebar" id="ctl00_content_ctl00_right-sidebar">
+<div class="layout-region-inner right-sidebar"><div class="content-fragment c-t-f-widget no-wrapper-with-spacing with-header" id="fragment-52310">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Translate This Page</div></div>
+<div class="content-fragment-content">
+
+
+
+
+<div id="MicrosoftTranslatorWidget" style="width: 275px; min-height: 83px; border-color: #333333; background-color: #CCCCCC;"><noscript><a href="http://www.microsofttranslator.com/bv.aspx?a=http%3a%2f%2fblogs.msdn.com%2f">Translate this page</a><br>Powered by <a href="http://www.microsofttranslator.com">MicrosoftÂ® Translator</a></noscript></div> <script type="text/javascript"> setTimeout(function() { var s = document.createElement("script"); s.type = "text/javascript"; s.charset = "UTF-8"; s.src = "http://www.microsofttranslator.com/Ajax/V2/Widget.aspx?siteData=ncUzpG6DNC3ChU0huEHZCFQbqrzCQRcTVqXdHso8P2KRGM-oFXjoeYwum3D31voFEyqUPj4HjacfvEdrHEyIG8CuATkNhQmRwcZkpGVFjvVnLd1gzFP2dxWEWKdcQtE1&mode=manual&from=en&layout=ts"; var p = document.getElementsByTagName('head')[0] || document.documentElement; p.insertBefore(s, p.firstChild); }, 0); </script> 
+
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-links no-wrapper-with-spacing with-header" id="fragment-52311">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Options</div></div>
+<div class="content-fragment-content">
+
+		<div class="navigation-list-header"></div>
+		<ul class="navigation-list">
+	<li class="navigation-item"><a class="internal-link view-application" href="/b/noahc/"><span></span>Blog Home</a></li><li class="navigation-item"><a class="internal-link view-contact" href="/b/noahc/contact.aspx"><span></span>Email Blog Author</a></li><li class="navigation-item"><a class="internal-link email-post" href="mailto:?subject=Is connecting to TFS automatically, slowing VS from loading?&amp;body=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx">
+		<span></span>Share this
+	</a></li><li class="navigation-item"><a class="internal-link rss" href="http://feeds.feedburner.com/NoahCoad"><span></span>RSS for posts</a></li><li class="navigation-item"><a class="internal-link rss" href="http://feeds.feedburner.com/NoahCoad"><span></span>Atom</a></li><li id="" rsscomments"""="" class="navigation-item"><a class="internal-link rss" href="/b/noahc/rsscomments.aspx"><span></span>RSS for comments</a></li>
+		</ul>
+		<div class="navigation-list-footer"></div>
+	</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment search-form no-wrapper-with-spacing with-header" id="fragment-52312">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Search</div></div>
+<div class="content-fragment-content">
+
+
+
+        <div class="field-list-header"></div>
+        <fieldset class="field-list">
+            <ul class="field-list">
+                <li class="field-item search">
+                    <div>
+                        <span class="field-item-input">
+                            <input name="ctl00$content$ctl00$w_52312$_99b325$ctl00$ctl01$ctl01$Keywords" type="text" maxlength="64" size="45" id="ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_Keywords" class="searchField" onfocus="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;">
+                            <input type="button" name="ctl00$content$ctl00$w_52312$_99b325$ctl00$ctl01$ctl01$SearchButton" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$content$ctl00$w_52312$_99b325$ctl00$ctl01$ctl01$SearchButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" id="ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_SearchButton" class="search-button">
+                        </span>
+                    </div>
+                    
+
+
+                    <a href="#" onclick="ToggleAdvancedSearch(ctl00_content_ctl00_w_52312, this)" id="ctl00_content_ctl00_w_52312_AdvancedOptions" class="internal-link advanced-search"><span></span>Advanced search options...</a>
+                </li>
+                <li class="field-item search-type">
+                    <label for="ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_ContentTypes" class="field-item-header">Search In:</label>
+                    <span class="field-item-input">
+                        <select name="ctl00$content$ctl00$w_52312$_99b325$ctl00$ctl01$ctl01$ContentTypes" id="ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_ContentTypes">
+	<option value="">Everything
+	<option value="blog">Blogs
+	<option value="forum">Forums
+	<option value="user">People
+	<option value="group">Groups
+	<option value="fileapp,forumapp,blogapp,wikiapp">Places
+	<option value="page">Pages
+
+</select>
+                    </span>
+                </li>
+                <li class="field-item date-range">
+                    <label for="ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_DatingBackTo" class="field-item-header">Date range:</label>
+                    <span class="field-item-input"><select name="ctl00$content$ctl00$w_52312$_99b325$ctl00$ctl01$ctl01$DatingBackTo" id="ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_DatingBackTo">
+	<option value="-1">All Time
+	<option value="-365">Last Year
+	<option value="-185">Last 6 Months
+	<option value="-95">Last 3 Months
+	<option value="-35">Last Month
+	<option value="-7">Last Week
+	<option value="-2">Last Two Days
+
+</select></span>
+                </li>
+                
+            </ul>
+        </fieldset>
+        <div class="field-list-footer">
+            <span style="display:inline-block"><input type="radio" name="SearchTypeRadio" value="ThisBlog" id="ThisBlog" checked=""><label for="ThisBlog" id="ThisBlogText">Search this blog</label></span>
+            <span style="display:inline-block"><input type="radio" name="SearchTypeRadio" value="AllBlogs" id="AllBlogs"><label for="AllBlogs" id="AllBlogsText">Search all blogs</label></span>
+        </div>
+
+    
+
+
+<script type="text/javascript">
+
+// Hide the radio buttons and text if we aren't on a blog
+$(document).ready(function() {
+            
+    // try to get the blog id, if we fail, then we aren't on a blog and just use the regular search approach       
+    var sectionID = 3849;
+
+    if (sectionID == -1)
+    {
+        var tbObj = document.getElementById("ThisBlog");
+        var tbObjText = document.getElementById("ThisBlogText");
+        var abObj = document.getElementById("AllBlogs");
+        var abObjText = document.getElementById("AllBlogsText");
+        
+        if (tbObj != 'undefined' && abObj != 'undefined' && abObjText != 'undefined' && tbObjText != 'undefined')
+        {
+            tbObj.style.display = 'none';
+            tbObjText.style.display = 'none';
+            abObj.style.display = 'none';
+            abObjText.style.display = 'none';
+        }
+    }
+}
+);
+
+// Setup on keypress event for the search box     
+var ctl00_content_ctl00_w_52312={"wrapperId":"fragment-52312","variableName":"ctl00_content_ctl00_w_52312","parameter":{"keywords":"ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_Keywords","search":"ctl00_content_ctl00_w_52312__99b325_ctl00_ctl01_ctl01_SearchButton"}};
+    
+    $("#" + ctl00_content_ctl00_w_52312.parameter.keywords).bind("keypress", function(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+            var tb = $(event.target);
+            tb.blur();
+
+            PerformSearch();
+        }
+    });
+
+    $('#' + ctl00_content_ctl00_w_52312.parameter.search).bind('click', function(e) {
+        PerformSearch();
+        e.stopPropagation();
+        return false;
+    });
+    
+    function PerformSearch() {
+        // try to get the blog id, if we fail, then we aren't on a blog and just use the regular search approach       
+        var sectionID = 3849;
+        if (sectionID != -1 && document.getElementById("ThisBlog").checked==true)
+        {
+            window.location = "/search/SearchResults.aspx?q=" + encodeURIComponent($("#" + ctl00_content_ctl00_w_52312.parameter.keywords).attr("value")) + "&sections=" + sectionID;
+        }
+        else
+        {
+            $("#" + ctl00_content_ctl00_w_52312.parameter.search).click();
+        }
+    }
+    
+    function ToggleAdvancedSearch(context, e)
+    {
+        var wrapper = $("#" + context.wrapperId);
+        var advancedSearchLink = $("#" + context.variableName + "_AdvancedOptions", wrapper);
+        if (advancedSearchLink.text() == 'Advanced search options...')
+        {
+            advancedSearchLink.text('Hide advanced options...');
+            $("ul.field-list", wrapper).addClass('advanced-search advanced-search__field-list');
+        }
+        else
+        {
+            advancedSearchLink.text('Advanced search options...');
+            $("ul.field-list", wrapper).removeClass('advanced-search advanced-search__field-list');
+        }
+    }
+</script></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment tag-cloud no-wrapper-with-spacing with-header" id="fragment-52313">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Tags</div></div>
+<div class="content-fragment-content">
+<div class="tag-list-header"></div><ul class="tag-list">
+<li class="tag-item level-2"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Code/" rel="tag">Code</a></li>
+<li class="tag-item level-5"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Deal+Watch/" rel="tag">Deal Watch</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Development/" rel="tag">Development</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Entertainment/" rel="tag">Entertainment</a></li>
+<li class="tag-item level-3"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Events/" rel="tag">Events</a></li>
+<li class="tag-item level-6"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Inside+Microsoft/" rel="tag">Inside Microsoft</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Life+Hacking/" rel="tag">Life Hacking</a></li>
+<li class="tag-item level-2"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Other/" rel="tag">Other</a></li>
+<li class="tag-item level-2"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Personal/" rel="tag">Personal</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Product+Reviews/" rel="tag">Product Reviews</a></li>
+<li class="tag-item level-6"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Team+Developer/" rel="tag">Team Developer</a></li>
+<li class="tag-item level-1"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Team+System/" rel="tag">Team System</a></li>
+<li class="tag-item level-6"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Tips+_2600_amp_3B00_+Tricks/" rel="tag">Tips &amp; Tricks</a></li>
+<li class="tag-item level-1"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Toolbox/" rel="tag">Toolbox</a></li>
+<li class="tag-item level-5"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Visual+Studio/" rel="tag">Visual Studio</a></li>
+</ul>
+<div class="tag-list-footer"></div>
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-archive-list no-wrapper-with-spacing with-header" id="fragment-52314">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Archive</div></div>
+<div class="content-fragment-content">
+
+		<div class="content-list-header"></div>
+		<div class="content-list-name">Archives</div>
+		<ul class="content-list">
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2010/01.aspx">January 2010</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/11.aspx">November 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/09.aspx">September 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/07.aspx">July 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/06.aspx">June 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/05.aspx">May 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/11.aspx">November 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/10.aspx">October 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/09.aspx">September 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/08.aspx">August 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/07.aspx">July 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/06.aspx">June 2008</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/05.aspx">May 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/04.aspx">April 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/03.aspx">March 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/02.aspx">February 2008</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/01.aspx">January 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/12.aspx">December 2007</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/11.aspx">November 2007</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/10.aspx">October 2007</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/09.aspx">September 2007</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/08.aspx">August 2007</a> (3)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/07.aspx">July 2007</a> (3)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/06.aspx">June 2007</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/05.aspx">May 2007</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/04.aspx">April 2007</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/03.aspx">March 2007</a> (8)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/02.aspx">February 2007</a> (9)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/01.aspx">January 2007</a> (7)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/12.aspx">December 2006</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/11.aspx">November 2006</a> (11)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/10.aspx">October 2006</a> (20)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/09.aspx">September 2006</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/08.aspx">August 2006</a> (6)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/07.aspx">July 2006</a> (17)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/06.aspx">June 2006</a> (18)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/02.aspx">February 2006</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/01.aspx">January 2006</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2005/12.aspx">December 2005</a> (1)</li>
+	
+		</ul>
+		<div class="content-list-footer"></div>
+	
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+</div>
+</div>
+<div class="layout-region content" id="ctl00_content_ctl00_content">
+<div class="layout-region-inner content"><div class="content-fragment blog-title full-border" id="fragment-52315">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-content">
+<h1 class="title">
+	    
+			        
+			    
+	                Is connecting to TFS automatically, slowing VS from loading?
+			    
+	</h1></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-bread-crumbs no-wrapper" id="fragment-52316">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-content">
+
+
+<div class="breadcrumb-list-header"></div>
+<div class="breadcrumb-list">
+	<span class="breadcrumb-item"><a class="internal-link view-home" href="/">MSDN Blogs</a></span>
+  
+	
+
+	
+			<span class="separator"> > </span>
+			<span class="breadcrumb-item">
+		<a href="/b/noahc/">Noah Coad</a>
+			</span>
+		
+	
+	
+			<span class="separator"> > </span>
+			<span class="breadcrumb-item">
+		<a href="/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx">Is connecting to TFS automatically, slowing VS from loading?</a>
+			</span>
+		
+
+	
+</div>
+<div class="breadcrumb-list-footer"></div>
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-post no-wrapper" id="fragment-52317">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-content">
+
+<div class="full-post-header"></div>
+<div class="full-post">
+	<h3 class="post-name">Is connecting to TFS automatically, slowing VS from loading?</h3>
+	
+    <div class="post-author">
+        <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;"></a></span>
+        
+         <span class="profile-usercard-hover" data-profile-userid="00000000-0000-0000-0000-000000000000">
+            <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+       
+            
+        </span>
+    </div>
+    <div class="post-date">
+        <span class="value">
+            26 Jun 2006 9:48 PM
+        </span>
+    </div>
+    <div class="post-attributes">
+        <div class="attribute-list-header"></div>
+        <ul class="attribute-list">
+             <li class="attribute-item post-reply-count">
+                <span class="attribute-name">Comments</span>
+                <span class="attribute-value"><a href="#comments" class="internal-link view-replies"><span></span>7</a></span>
+             </li>
+        </ul>
+        <div class="attribute-list-footer"></div>
+    </div>
+    <div class="post-content user-defined-markup"><p>Heck yeah.&nbsp; Frequently Iâ€™ll just want to work on some code and not nessasarily connect to our TFS server.&nbsp; Especially on my laptop when I take it from work to code away at home.&nbsp; How about the cases where the Team Explorer tool window was visible last time VS was closed, which means when VS loads next you have to wait for it to connect syncronously before the rest of the UI becomes responsive.</p> <p>So I was reading <a href="http://musingmarc.blogspot.com/">Marc Brooksâ€™</a> post on <a href="http://musingmarc.blogspot.com/2006/03/visual-studio-2005-sometimes-seems.html">â€œVisual Studio 2005 sometimes seems slow starting up.â€</a> and saw this tip he reposted from <a href="http://blogs.msdn.com/hippietim/">Tim Noonan</a> which Iâ€™m just so happy to have foundâ€¦&nbsp; Thanks Marc &amp; Tim.</p> <blockquote> <p>â€œIf you have start-up speed issues when the Team Foundation Server is not accessible, you can add a DWORD value called <strong>AutoLoadServer</strong> under <strong>HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\TeamFoundation</strong> and set the value to <strong>0</strong>. That way VS won't try to connect to the TFS machine on startup. You can always set the value to 1 to enable auto-reconnect. I've personally used this trick while doing the maintenance on my TFS server.â€ â€“ Marc &amp; Tim</p></blockquote> <p>Here's are registry settings in RegEdit form (<a href="http://coad.net/blog/resources/Don't%20Load%20TFS%20Server%20Till%20Clicking.reg">Don't Load TFS Server Till Clicking.reg</a>):</p> <blockquote style="padding-right: 4px; padding-left: 4px; background: #dcdcdc; padding-bottom: 4px; padding-top: 4px"> <p>Windows Registry Editor Version 5.00 </p> <p>[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\TeamFoundation]<br>"AutoLoadServer"=dword:00000000</p></blockquote> <p>Though now it takes me&nbsp;two clicks to reconnect to the last TFS server, with a significant lag time between the two clicks.&nbsp; Iâ€™m a fan of the simple one-click solution, so if I were to redesign this, iâ€™d look something like this.&nbsp; One click on the little plus next to your last server would reconnect you to the server.&nbsp; That would be sweet.&nbsp; Connect on demand w/ one click.</p> <p><img alt="TeamExplorerRedesign" src="http://coad.net/blog/images/TeamExplorerRedesign.png" border="0"></p> <p>What do you think?&nbsp; Find yourself in this situation too?&nbsp; Iâ€™ll pass the feedback onto the TFS team.</p></div>
+    <div class="post-attachment-viewer">
+		
+    </div>
+    <div class="post-actions">
+        <div class="navigation-list-header"></div>
+        <ul class="navigation-list">
+            <!---->
+            <li class="navigation-item"><a class="internal-link view-replies" href="/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx#comments"><span></span>7 Comments</a></li>
+            
+            
+        </ul>
+        <div class="navigation-list-footer"></div>
+    </div>
+    
+</div>
+<div class="full-post-footer"></div></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment social-media-sharing no-wrapper" id="fragment-52318">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-content">
+
+<script src="http://i1.blogs.msdn.com/rrcontent/50544f4101095598f21072af0e42af3e-728902f4ef5f2de6d6b9f0f9c981a88c-RequestReducedScript.js" type="text/javascript"></script>
+<div class="ShareThisMainPanel">
+	<div id="ctl00_content_ctl00_w_52318__99b325_ctl00_48768e10_8ac4_4414_a84f_fd7e4e240da4" class="ShareThis_ChildRootPanel" onmouseover="ShareThisChildRootPanelOnmouseOver(this.id);" onmouseout="ShareThisChildRootPanelOnmouseOut(this.id);">
+		<div id="ctl00_content_ctl00_w_52318__99b325_ctl00_ShareThisBtnCollPanel_c7c8c9cfe1124e489edc654e340c2afa" class="tierOnePanel">
+			<div class="buttonPanel">
+				<a title="Share on Facebook" class="iconsOnPanel" href="http://www.facebook.com/sharer.php?u=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;t=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on Facebook" src="/CustomWidgets/SocialMediaSharingUC/Resources/facebook.gif" style="border-width:0px;"></a>
+			</div><div class="buttonPanel">
+				<a title="Share on Twitter" class="iconsOnPanel" href="http://twitter.com/home?status=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f : http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx" target="_blank"><img title="Share on Twitter" src="/CustomWidgets/SocialMediaSharingUC/Resources/twitter.gif" style="border-width:0px;"></a>
+			</div><div class="buttonPanel">
+				<a title="Share on Digg" class="iconsOnPanel" href="http://digg.com/submit?url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on Digg" src="/CustomWidgets/SocialMediaSharingUC/Resources/digg.gif" style="border-width:0px;"></a>
+			</div><div class="buttonPanel">
+				<a title="Share on del.icio.us" class="iconsOnPanel" href="http://del.icio.us/post?url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on del.icio.us" src="/CustomWidgets/SocialMediaSharingUC/Resources/delicious.gif" style="border-width:0px;"></a>
+			</div>
+		</div><div id="ctl00_content_ctl00_w_52318__99b325_ctl00_ShareThisBtnCollPanel_cf0fdd2479e340d78f904c6edf2d67eb" class="tierTwoPanel" onclick="TierTwoPanelOnclick(this.id);" onkeypress="if (event.keyCode == 13) TierTwoPanelOnclick(this.id);" onmouseover="TierTwoPanelOnmouseOver(this.id);" onmouseout="TierTwoPanelOnmouseOut(this.id);">
+			<div id="ctl00_content_ctl00_w_52318__99b325_ctl00_ShareThisBtnCollPanel_2e8be23bb46b465695f48e907c507836" class="tierTwoRowPanel">
+				<div class="buttonPanel">
+					<a title="Share on Reddit" class="iconsOnPanel" href="http://www.reddit.com/submit?url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on Reddit" src="/CustomWidgets/SocialMediaSharingUC/Resources/reddit.gif" style="border-width:0px;"></a>
+				</div><div class="buttonPanel">
+					<a title="Share on LinkedIn" class="iconsOnPanel" href="http://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f&amp;summary=&amp;source=Microsoft&amp;armin=armin" target="_blank"><img title="Share on LinkedIn" src="/CustomWidgets/SocialMediaSharingUC/Resources/linkedin.gif" style="border-width:0px;"></a>
+				</div><div class="buttonPanel">
+					<a title="Share on Slashdot" class="iconsOnPanel" href="http://slashdot.org/bookmark.pl?url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on Slashdot" src="/CustomWidgets/SocialMediaSharingUC/Resources/slashdot.gif" style="border-width:0px;"></a>
+				</div><div class="buttonPanel">
+					<a title="Share on MySpace" class="iconsOnPanel" href="http://www.myspace.com/Modules/PostTo/Pages/?u=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;t=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on MySpace" src="/CustomWidgets/SocialMediaSharingUC/Resources/myspace.gif" style="border-width:0px;"></a>
+				</div>
+			</div><div id="ctl00_content_ctl00_w_52318__99b325_ctl00_ShareThisBtnCollPanel_827d853212d447d8b6647f5fd6ef5973" class="tierTwoRowPanel">
+				<div class="buttonPanel">
+					<a title="Share on Technorati" class="iconsOnPanel" href="http://technorati.com/faves/?add=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx" target="_blank"><img title="Share on Technorati" src="/CustomWidgets/SocialMediaSharingUC/Resources/technorati.gif" style="border-width:0px;"></a>
+				</div><div class="buttonPanel">
+					<a title="Share on FriendFeed" class="iconsOnPanel" href="http://friendfeed.com/?url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on FriendFeed" src="/CustomWidgets/SocialMediaSharingUC/Resources/friendfeed.gif" style="border-width:0px;"></a>
+				</div><div class="buttonPanel">
+					<a title="Share on Messenger" class="iconsOnPanel" href="http://profile.live.com/badge?url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on Messenger" src="/CustomWidgets/SocialMediaSharingUC/Resources/messenger.png" style="border-width:0px;"></a>
+				</div><div class="buttonPanel">
+					<a title="Share on StumbleUpon" class="iconsOnPanel" href="http://www.stumbleupon.com/submit?url=http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx&amp;title=Is+connecting+to+TFS+automatically%2c+slowing+VS+from+loading%3f" target="_blank"><img title="Share on StumbleUpon" src="/CustomWidgets/SocialMediaSharingUC/Resources/stumbleupon.gif" style="border-width:0px;"></a>
+				</div>
+			</div>
+		</div>
+	</div><div id="ctl00_content_ctl00_w_52318__99b325_ctl00_ShowMoreLessButtonsPanel_31ad9581_a486_44ae_90d0_42943c42c97b" tabindex="1" class="ShowMoreLessButtonsPanel" onclick="ShowMoreLessButtonsPanelOnClick(this.id);" onkeypress="if (event.keyCode == 13) ShowMoreLessButtonsPanelOnClick(this.id);" onmouseover="ShowMoreLessButtonsPanelOnmouseOver(this.id);" onmouseout="ShowMoreLessButtonsPanelOnmouseOut(this.id);">
+		<a class="buttonMoreLess" id="btn_more"><img title="More" src="/CustomWidgets/SocialMediaSharingUC/Resources/more.gif" src="" border="0"></a><a class="buttonMoreLess" id="btn_less"><img title="Less" src="/CustomWidgets/SocialMediaSharingUC/Resources/less.gif" src="" border="0"></a>
+	</div>
+</div><div class="ShareClearFloatsPanel">
+
+</div></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-feedback-list no-wrapper with-header" id="fragment-52319">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Blog - Comment List MSDN TechNet</div></div>
+<div class="content-fragment-content">
+
+<script src="http://i1.blogs.msdn.com/rrcontent/3cbb0f79d25f679cfe08f626d8fd6712-046b6effca3e690ff36ad88e13526060-RequestReducedScript.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+	// <![CDATA[
+    var endpoint = '/Utility/ContentFragments/Blogs/FeedbackListAjax.asmx';
+	$(document).ready(function() {
+	    $.ajax({ type: 'POST', 
+	             contentType: 'application/json',
+	             dataType: 'json',
+	             url: endpoint + '/GetComments',
+	             data: '{blogId:3849, postId:648008}', 
+	             success: function(data) {
+	                 var comments = $('#commentList').empty();
+	                 $('#commentTemplate').tmpl(data.d).appendTo(comments);
+	                 
+	            }
+        });
+	});
+// ]]>
+</script>
+
+<a name="comments"></a>
+<div class="content-list-header"></div>
+<div class="content-list-name">
+    
+            <a class="internal-link rss" href="/b/noahc/rsscomments.aspx?WeblogPostID=648008"><span></span>Comments</a>
+        
+</div>
+
+
+
+<ul id="commentList" class="content-list">
+      <li class="content-item">Loading...</li>
+</ul>
+<div class="content-list-footer"></div>
+
+<script id="commentTemplate" type="text/html">
+    <li id="commentItem${Id}" class="content-item">
+        <div class="full-post-outer fiji-full-post-outer"><div class="full-post-header"><div class="r fiji-r"></div></div>
+        <div class="full-post"><div class="full-post-inner fiji-full-post-inner">
+            <div class="post-author">
+                <span class="avatar">
+                    {{if !Author.IsAnonymous}}
+                    <a href="${Author.ProfileUrl}">
+                        <img src="${Author.AvatarUrl}" style="border-width:0;max-height:32px;max-width:32px;"/>
+                    </a>
+                    {{else}}
+                    <img src="${Author.AvatarUrl}" style="border-width:0;max-height:32px;max-width:32px;"/>
+                    {{/if}}
+                </span>
+                <span class="profile-usercard-hover" data-profile-userid="${Author.ProfileId}">
+                    <span class="user-name">
+                        {{if !Author.IsAnonymous}}
+                        <a href="${Author.ProfileUrl}">
+                            ${Author.DisplayName}
+                        </a>
+                        {{else}}
+                        ${Author.DisplayName}
+                        {{/if}}
+                    </span>
+                </span>
+            </div>
+            <div class="post-date">
+                <span class="value">${PublishedDate}</span>
+            </div>
+            <a name="${Id}" style="padding-left:5px;" href="#${Id}">#</a>
+            <div class="post-content user-defined-markup">
+                {{html Body}}
+            </div>
+            <div class="post-actions">
+                
+            </div>
+        </div>
+        {{if !Author.IsAnonymous && Author.Id == 3849}}
+        <div class="full-post-footer user-is-author">
+        {{else}}
+        <div class="full-post-footer">
+        {{/if}}
+            <div class="r wireframe-r"></div>
+        </div>
+    </li>
+</script></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment captcha-blog-post-comment-form no-wrapper" id="fragment-52320">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-content">
+
+    
+            <div class="field-list-header"></div>
+            <fieldset class="field-list">
+                <legend class="field-list-description">Leave a Comment</legend>
+                <ul class="field-list">
+                    <li id="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_NameField" class="field-item">
+                        <label for="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_tbName" class="field-item-header">Name</label>
+                        <span class="field-item-input"><input name="ctl00$content$ctl00$w_52320$_99b325$ctl00$ctl00$ctl00$ctl05$bpCommentForm$ctl05$tbName" type="text" size="60" id="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_tbName"></span>
+                        
+                    </li>
+                    <li class="field-item post-body">
+                        <label for="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_tbComment" class="field-item-header">Comment</label>
+                        <span class="field-item-input"><textarea name="ctl00$content$ctl00$w_52320$_99b325$ctl00$ctl00$ctl00$ctl05$bpCommentForm$ctl05$tbComment" rows="2" cols="20" id="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_tbComment"></textarea></span>
+                        
+                    </li>
+                    <li class="field-item">
+                        
+                           <span id="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_subtext_captcha">Please add 7 and 3 and type the answer here: <input type="text" name="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_visibleanswer" value=""></span>
+
+
+                    </li>
+                    <li class="field-item">
+                        <script type="text/javascript">
+                            function postComment(anchor) {
+                                if (Page_ClientValidate('BlogPostCommentForm-ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00')) {
+                                    $(anchor).hide();
+                                    $(anchor).parent()
+                                             .html('<a class="internal-link add-reply" style="color:#c7c7c7;"><span></span>Publishing</a>');
+                                }
+                            }
+                        </script>
+                        <span class="field-item-input"><a onclick="postComment(this);" id="ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_btnSubmit" class="internal-link add-reply" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$content$ctl00$w_52320$_99b325$ctl00$ctl00$ctl00$ctl05$bpCommentForm$ctl05$btnSubmit&quot;, &quot;&quot;, true, &quot;BlogPostCommentForm-ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00&quot;, &quot;&quot;, false, true))"><span></span>Post</a></span>
+                    </li>
+                </ul>
+            </fieldset>
+            <div class="field-list-footer"></div>
+        
+    
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+</div>
+</div>
+</div>
+<div class="layout-footer"></div>
+</div></div>
+
+			<div class="footer-fragments-header"></div>
+<div class="footer-fragments"><div class="footer-fragment copyright-info" id="footer-fragment-1402503690">
+
+<ul class="footer-fragment-links">
+    <li class="message copyright">Â© 2012 Microsoft Corporation.</li>
+	<li class="message termsOfService"><a href="http://msdn.microsoft.com/cc300389">Terms of Use</a> </li>
+    <li class="message trademarks"><a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx">Trademarks</a> </li>
+    <li class="message privacy"><a href="http://www.microsoft.com/info/privacy.mspx">Privacy Statement</a> </li>
+    <li class="message abuse">
+    
+            <a id="ctl00_footer_fragment_1402503690__99b325_ctl00_ctl00_ctl01_lnkAbuse" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$footer_fragment_1402503690$_99b325$ctl00$ctl00$ctl01$lnkAbuse&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Report Abuse</a>
+        
+    </li>
+    
+    <li class="message version">5.6.131.143</li>
+</ul></div><div class="footer-fragment omniture-footer-fragment" id="footer-fragment-1402503691">
+
+
+<script src="http://i1.blogs.msdn.com/rrcontent/2569210a296af7a76a1f0a41cafcfd42-4797f790eaf0aee5be80d629d76b8085-RequestReducedScript.js" type="text/javascript"></script>
+        <noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstomsdnblogs.112.2O7.net/b/ss/msstomsdnblogs/1/H.20.2--NS/0" height="1" width="1" border="0" alt=""></a></noscript>
+
+</div></div>
+<div class="footer-fragments-footer"></div>
+		
+<script type="text/javascript">
+// <![CDATA[
+ctl00_content_ctl00 = new ContentFragmentPageCustomCallback('ctl00_content_ctl00',new Function('mode','parameters','callback','errorCallback','context','ctl00_content_ctl00_ctl00._doCallback(mode+\':\'+parameters,callback,context,errorCallback);'));
+// ]]>
+</script>
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx"
+dc:identifier="http://blogs.msdn.com/b/noahc/archive/2006/06/26/is-connecting-to-tfs-automatically-slowing-vs-from-loading.aspx"
+dc:title="Is connecting to TFS automatically, slowing VS from loading?"
+trackback:ping="http://blogs.msdn.com/b/noahc/trackback.ashx?WeblogPostID=648008" />
+</rdf:RDF>
+-->
+<script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('\/utility\/loading.htm',['modal'],['modal-title','modal-title-2','modal-title-3','modal-title-4'],['modal-close'],['modal-content','modal-content-2'],['modal-footer','modal-footer-2','modal-footer-3'],['modal-resize'],['modal-mask'],10000,false,true,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_content_ctl00_ctl00 = new Telligent_CallbackManager('ctl00_content_ctl00_ctl00','ctl00$content$ctl00$ctl00','aspnetForm');
+// ]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+$('#ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_tbComment').autoResize({animate : false,extraSpace : 0,limit : 3000});//]]>
+</script>
+<script type="text/javascript">
+subtext_invisible_captcha_hideFromJavascriptEnabledBrowsers('ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_subtext_captcha');
+</script><script type="text/javascript">
+subtext_invisible_captcha_setAnswer(7, 3, 'ctl00_content_ctl00_w_52320__99b325_ctl00_ctl00_ctl00_ctl05_bpCommentForm_ctl05_invisibleCaptcha_answer');
+</script></form>
+       
+    <script type="text/javascript">
+        $(window).load(function () {
+            $.getScript('http://widgets.membership.microsoft.com/v1/loader.js?brand=msdn&lang=en-US', function () {
+            });
+        });
+    </script>
+    
+	
+        <script type="text/javascript">$('div.breadcrumb-list span:last a').addClass('last');</script></body>
+</html>

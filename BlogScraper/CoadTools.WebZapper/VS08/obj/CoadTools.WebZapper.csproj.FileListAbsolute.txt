@@ -1,0 +1,5 @@
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS08\bin\Debug\CoadTools.WebZapper.dll
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS08\bin\Debug\CoadTools.WebZapper.pdb
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS08\obj\Debug\ResolveAssemblyReference.cache
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS08\obj\Debug\CoadTools.WebZapper.dll
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS08\obj\Debug\CoadTools.WebZapper.pdb

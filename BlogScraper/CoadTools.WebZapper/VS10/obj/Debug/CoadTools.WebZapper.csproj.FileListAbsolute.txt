@@ -1,0 +1,20 @@
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS09\bin\Debug\CoadTools.WebZapper.dll
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS09\bin\Debug\CoadTools.WebZapper.pdb
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS09\obj\Debug\ResolveAssemblyReference.cache
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS09\obj\Debug\CoadTools.WebZapper.dll
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS09\obj\Debug\CoadTools.WebZapper.pdb
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.dll
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.pdb
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS10\obj\Debug\ResolveAssemblyReference.cache
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.dll
+C:\Noah\Projects\CoadTools\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.pdb
+C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.dll
+C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.pdb
+C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\ResolveAssemblyReference.cache
+C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.dll
+C:\Noah\Dropbox\Shares\Radi Ivanov\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.pdb
+F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.dll
+F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\bin\Debug\CoadTools.WebZapper.pdb
+F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\ResolveAssemblyReference.cache
+F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.dll
+F:\Dopbox\Dropbox\Radi Noah\Projects\BlogScraper\CoadTools.WebZapper\VS10\obj\Debug\CoadTools.WebZapper.pdb

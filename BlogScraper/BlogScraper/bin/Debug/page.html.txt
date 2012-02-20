@@ -1,0 +1,1620 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head><meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8;" /><meta name="robots" content="index,follow" />
+<meta name="GENERATOR" content="Telligent Community 5.6.583.21163 (Build: 5.6.583.21163)" />
+<link rel="alternate" type="application/rss+xml" title="Site Home (RSS 2.0)" href="http://blogs.msdn.com/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="noahc&#39;s Comments (RSS 2.0)" href="/members/noahc/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="noahc&#39;s Activities (RSS 2.0)" href="/members/noahc/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Activities of People noahc Follows (RSS 2.0)" href="/members/noahc/activities/followersrss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="noahc&#39;s Groups Activities (RSS 2.0)" href="/members/noahc/activities/groupsrss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Noah Coad (RSS 2.0)" href="http://feeds.feedburner.com/NoahCoad"  />
+<link rel="alternate" type="application/rss+xml" title="Noah Coad - All Comments (RSS 2.0)" href="http://blogs.msdn.com/b/noahc/rsscomments.aspx"  />
+
+            <link href="http://i1.blogs.msdn.com/rrcontent/a5ab142e7d86e550d0a2f0066dde372d-dead4f75dd2e657b34c817c3411de24d-RequestReducedStyle.css" rel="Stylesheet" type="text/css" />
+        
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+          <link rel="shortcut icon" type="image/ico" href="/themes/MSDN2/favicon.ico" />
+          <link href="http://i1.blogs.msdn.com/rrcontent/f508f4a77a2c4eae0ce5dc1f6ebfdbe3-2e9d3fb6b87b98c0a2d004eec903978e-RequestReducedStyle.css" rel="Stylesheet" type="text/css" /><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+          
+          
+        
+          <link type="text/css" rel="stylesheet" href="/themes/MSDN2/css/DynamicStyle.aspx?PreviewKey=0" media="screen,print" />
+          <link type="text/css" rel="stylesheet" href="/themes/blogs/MSDN2/css/DynamicStyle.aspx?WeblogID=3849&PreviewKey=0" media="screen,print" />
+        
+          <!--[if lte IE 6]>
+              <link type="text/css" rel="stylesheet" href="/themes/MSDN2/css/ie6.css" media="screen,print" />
+          <![endif]-->
+          
+        <meta name="msvalidate.01" content="B717AD6FC29D3A844832AF011B5F9E4C" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blogs.msdn.com/b/noahc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://blogs.msdn.com/b/noahc/wlwmanifest.ashx" />
+
+        <script src="http://i1.blogs.msdn.com/rrcontent/a8b00aaa2a23f2191d770c0610d2003a-d98c1dd4008f04b2e9800998ecf8427e-RequestReducedScript.js" type="text/javascript" ></script>
+    <title>
+	Noah Coad - Site Home - MSDN Blogs
+</title></head>
+	<body spellcheck="true">
+		<form name="aspnetForm" method="post" action="/b/noahc/" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM5OTAxNDYyNWRkDtRVwYYdLN5WMJAfmBjpy+lIufE=" />
+</div>
+
+
+<script src="http://i1.blogs.msdn.com/rrcontent/7712d31e9a120d28cdc36fe9efcb7b0d-07c0b082ed960b77c69660544d992a9d-RequestReducedScript.js" type="text/javascript" ></script>
+
+
+
+
+
+
+
+			
+            
+                
+            
+            <div class="header-fragments-header"></div>
+<div class="header-fragments"><div class="header-fragment-outer top-bar msdn-header-fragment-outer msdn-top-bar"><div class="header-fragment-inner top-bar msdn-header-fragment-inner msdn-top-bar"><div class="header-fragment welcome-message" id="header-fragment-1402503690">
+
+
+<!-- always render -->
+</div><div class="header-fragment login-logout" id="header-fragment-1402503691">
+
+
+
+
+
+        <div class="navigation-list-header"></div>
+        <ul class="navigation-list">
+
+            <li class="navigation-item">
+                <span id="ctl00_header_fragment_1402503691__99b325_ctl00_ctl02_ctl05_WLIDLoginButton1" class="internal-link live-id-button"><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=11&ct=1329715229&rver=6.0.5286.0&wp=MBI&wreply=http:%2F%2Fblogs.msdn.com%2Fb%2Fnoahc%2Fdefault.aspx&lc=1033&id=271611">Sign In</a></span>
+            </li>
+        </ul>
+        <div class="navigation-list-footer"></div>
+    </div><div class="header-fragment user-welcome-without-login" id="header-fragment-1402503692">
+
+ &nbsp;<!-- always render -->
+
+</div></div></div><div class="header-fragment blog-banner" id="header-fragment-1402503693">
+
+
+
+<div class="site-banner blog-banner">
+
+<h1 class="blog-banner-name"><a href="/b/noahc/">Noah Coad</a></h1>
+<div class="blog-banner-description">A Microsoft Program Manager on Visual Studio Platform (and an underground coder, lifehacker, hockey player)</div>
+</div>
+
+</div></div>
+<div class="header-fragments-footer"></div>
+			    <div class="content-fragment-page postlist" id="ctl00_content_ctl00_page"><div class="layout">
+<div class="layout-header"></div>
+<div class="layout-content content-left-sidebar-right" id="ctl00_content_ctl00_layout">
+<div class="layout-region right-sidebar" id="ctl00_content_ctl00_right-sidebar">
+<div class="layout-region-inner right-sidebar"><div class="content-fragment c-t-f-widget no-wrapper-with-spacing with-header" id="fragment-42819">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Translate This Page</div></div>
+<div class="content-fragment-content">
+
+
+
+
+<div id="MicrosoftTranslatorWidget" style="width: 275px; min-height: 83px; border-color: #333333; background-color: #CCCCCC;"><noscript><a href="http://www.microsofttranslator.com/bv.aspx?a=http%3a%2f%2fblogs.msdn.com%2f">Translate this page</a><br />Powered by <a href="http://www.microsofttranslator.com">MicrosoftÂ® Translator</a></noscript></div> <script type="text/javascript"> setTimeout(function() { var s = document.createElement("script"); s.type = "text/javascript"; s.charset = "UTF-8"; s.src = "http://www.microsofttranslator.com/Ajax/V2/Widget.aspx?siteData=ncUzpG6DNC3ChU0huEHZCFQbqrzCQRcTVqXdHso8P2KRGM-oFXjoeYwum3D31voFEyqUPj4HjacfvEdrHEyIG8CuATkNhQmRwcZkpGVFjvVnLd1gzFP2dxWEWKdcQtE1&mode=manual&from=en&layout=ts"; var p = document.getElementsByTagName('head')[0] || document.documentElement; p.insertBefore(s, p.firstChild); }, 0); </script> 
+
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-links no-wrapper-with-spacing with-header" id="fragment-42820">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Options</div></div>
+<div class="content-fragment-content">
+
+		<div class="navigation-list-header"></div>
+		<ul class="navigation-list">
+	<li class="navigation-item"><a class="internal-link view-contact" href="/b/noahc/contact.aspx"><span></span>Email Blog Author</a></li><li class="navigation-item"><a class="internal-link rss" href="http://feeds.feedburner.com/NoahCoad"><span></span>RSS for posts</a></li><li class="navigation-item"><a class="internal-link rss" href="http://feeds.feedburner.com/NoahCoad"><span></span>Atom</a></li><li id=""RssComments""" class="navigation-item"><a class="internal-link rss" href="/b/noahc/rsscomments.aspx"><span></span>RSS for comments</a></li>
+        <li class="navigation-item email-subscription">
+                <div class="field-list-header email-subscription-form"></div>
+                <fieldset class="field-list email-subscription-form">
+                    <ul class="field-list">
+                        <li class="field-item">
+                            <span class="field-item-description"></span>
+                            
+                                    <span class="field-item-input">
+                                        <input name="ctl00$content$ctl00$w_42820$_99b325$ctl00$ctl00$weblogSubscribe$ctl09$ctl00$ctl01$EmailSubscriptionPanel$ctl01$EmailSubscribeTextBox" type="text" value="Subscribe w/ Email Address" id="ctl00_content_ctl00_w_42820__99b325_ctl00_ctl00_weblogSubscribe_ctl09_ctl00_ctl01_EmailSubscriptionPanel_ctl01_EmailSubscribeTextBox" title="Enter your email address" onfocus="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" />
+                                        <a id="ctl00_content_ctl00_w_42820__99b325_ctl00_ctl00_weblogSubscribe_ctl09_ctl00_ctl01_EmailSubscriptionPanel_ctl01_EmailSubscribeButton" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$content$ctl00$w_42820$_99b325$ctl00$ctl00$weblogSubscribe$ctl09$ctl00$ctl01$EmailSubscriptionPanel$ctl01$EmailSubscribeButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">OK</a>
+                                    </span>
+                                
+                        </li>
+                    </ul>
+                </fieldset>
+                <div class="field-list-footer email-subscription"></div>
+            </li>
+    
+		</ul>
+		<div class="navigation-list-footer"></div>
+	</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment search-form no-wrapper-with-spacing with-header" id="fragment-42821">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Search</div></div>
+<div class="content-fragment-content">
+
+
+
+        <div class="field-list-header"></div>
+        <fieldset class="field-list">
+            <ul class="field-list">
+                <li class="field-item search">
+                    <div>
+                        <span class="field-item-input">
+                            <input name="ctl00$content$ctl00$w_42821$_99b325$ctl00$ctl01$ctl01$Keywords" type="text" maxlength="64" size="45" id="ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_Keywords" class="searchField" onfocus="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" />
+                            <input type="button" name="ctl00$content$ctl00$w_42821$_99b325$ctl00$ctl01$ctl01$SearchButton" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$content$ctl00$w_42821$_99b325$ctl00$ctl01$ctl01$SearchButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" id="ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_SearchButton" class="search-button" />
+                        </span>
+                    </div>
+                    
+
+
+                    <a href="#" onclick="ToggleAdvancedSearch(ctl00_content_ctl00_w_42821, this)" id="ctl00_content_ctl00_w_42821_AdvancedOptions" class="internal-link advanced-search"><span></span>Advanced search options...</a>
+                </li>
+                <li class="field-item search-type">
+                    <label for="ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_ContentTypes" class="field-item-header">Search In:</label>
+                    <span class="field-item-input">
+                        <select name="ctl00$content$ctl00$w_42821$_99b325$ctl00$ctl01$ctl01$ContentTypes" id="ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_ContentTypes">
+	<option value="">Everything</option>
+	<option value="blog">Blogs</option>
+	<option value="forum">Forums</option>
+	<option value="user">People</option>
+	<option value="group">Groups</option>
+	<option value="fileapp,forumapp,blogapp,wikiapp">Places</option>
+	<option value="page">Pages</option>
+
+</select>
+                    </span>
+                </li>
+                <li class="field-item date-range">
+                    <label for="ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_DatingBackTo" class="field-item-header">Date range:</label>
+                    <span class="field-item-input"><select name="ctl00$content$ctl00$w_42821$_99b325$ctl00$ctl01$ctl01$DatingBackTo" id="ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_DatingBackTo">
+	<option value="-1">All Time</option>
+	<option value="-365">Last Year</option>
+	<option value="-185">Last 6 Months</option>
+	<option value="-95">Last 3 Months</option>
+	<option value="-35">Last Month</option>
+	<option value="-7">Last Week</option>
+	<option value="-2">Last Two Days</option>
+
+</select></span>
+                </li>
+                
+            </ul>
+        </fieldset>
+        <div class="field-list-footer">
+            <span style="display:inline-block"><input type="radio" name="SearchTypeRadio" value="ThisBlog" id="ThisBlog" checked /><label for="ThisBlog" id="ThisBlogText">Search this blog</label></span>
+            <span style="display:inline-block"><input type="radio" name="SearchTypeRadio" value="AllBlogs" id="AllBlogs" /><label for="AllBlogs" id="AllBlogsText">Search all blogs</label></span>
+        </div>
+
+    
+
+
+<script type="text/javascript">
+
+// Hide the radio buttons and text if we aren't on a blog
+$(document).ready(function() {
+            
+    // try to get the blog id, if we fail, then we aren't on a blog and just use the regular search approach       
+    var sectionID = 3849;
+
+    if (sectionID == -1)
+    {
+        var tbObj = document.getElementById("ThisBlog");
+        var tbObjText = document.getElementById("ThisBlogText");
+        var abObj = document.getElementById("AllBlogs");
+        var abObjText = document.getElementById("AllBlogsText");
+        
+        if (tbObj != 'undefined' && abObj != 'undefined' && abObjText != 'undefined' && tbObjText != 'undefined')
+        {
+            tbObj.style.display = 'none';
+            tbObjText.style.display = 'none';
+            abObj.style.display = 'none';
+            abObjText.style.display = 'none';
+        }
+    }
+}
+);
+
+// Setup on keypress event for the search box     
+var ctl00_content_ctl00_w_42821={"wrapperId":"fragment-42821","variableName":"ctl00_content_ctl00_w_42821","parameter":{"keywords":"ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_Keywords","search":"ctl00_content_ctl00_w_42821__99b325_ctl00_ctl01_ctl01_SearchButton"}};
+    
+    $("#" + ctl00_content_ctl00_w_42821.parameter.keywords).bind("keypress", function(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+            var tb = $(event.target);
+            tb.blur();
+
+            PerformSearch();
+        }
+    });
+
+    $('#' + ctl00_content_ctl00_w_42821.parameter.search).bind('click', function(e) {
+        PerformSearch();
+        e.stopPropagation();
+        return false;
+    });
+    
+    function PerformSearch() {
+        // try to get the blog id, if we fail, then we aren't on a blog and just use the regular search approach       
+        var sectionID = 3849;
+        if (sectionID != -1 && document.getElementById("ThisBlog").checked==true)
+        {
+            window.location = "/search/SearchResults.aspx?q=" + encodeURIComponent($("#" + ctl00_content_ctl00_w_42821.parameter.keywords).attr("value")) + "&sections=" + sectionID;
+        }
+        else
+        {
+            $("#" + ctl00_content_ctl00_w_42821.parameter.search).click();
+        }
+    }
+    
+    function ToggleAdvancedSearch(context, e)
+    {
+        var wrapper = $("#" + context.wrapperId);
+        var advancedSearchLink = $("#" + context.variableName + "_AdvancedOptions", wrapper);
+        if (advancedSearchLink.text() == 'Advanced search options...')
+        {
+            advancedSearchLink.text('Hide advanced options...');
+            $("ul.field-list", wrapper).addClass('advanced-search advanced-search__field-list');
+        }
+        else
+        {
+            advancedSearchLink.text('Advanced search options...');
+            $("ul.field-list", wrapper).removeClass('advanced-search advanced-search__field-list');
+        }
+    }
+</script></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment tag-cloud no-wrapper-with-spacing with-header" id="fragment-42822">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Tags</div></div>
+<div class="content-fragment-content">
+<div class="tag-list-header"></div><ul class="tag-list">
+<li class="tag-item level-2"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Code/" rel="tag">Code</a></li>
+<li class="tag-item level-5"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Deal+Watch/" rel="tag">Deal Watch</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Development/" rel="tag">Development</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Entertainment/" rel="tag">Entertainment</a></li>
+<li class="tag-item level-3"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Events/" rel="tag">Events</a></li>
+<li class="tag-item level-6"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Inside+Microsoft/" rel="tag">Inside Microsoft</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Life+Hacking/" rel="tag">Life Hacking</a></li>
+<li class="tag-item level-2"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Other/" rel="tag">Other</a></li>
+<li class="tag-item level-2"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Personal/" rel="tag">Personal</a></li>
+<li class="tag-item level-4"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Product+Reviews/" rel="tag">Product Reviews</a></li>
+<li class="tag-item level-6"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Team+Developer/" rel="tag">Team Developer</a></li>
+<li class="tag-item level-1"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Team+System/" rel="tag">Team System</a></li>
+<li class="tag-item level-6"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Tips+_2600_amp_3B00_+Tricks/" rel="tag">Tips &amp; Tricks</a></li>
+<li class="tag-item level-1"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Toolbox/" rel="tag">Toolbox</a></li>
+<li class="tag-item level-5"><a href="http://blogs.msdn.com/b/noahc/archive/tags/Visual+Studio/" rel="tag">Visual Studio</a></li>
+</ul>
+<div class="tag-list-footer"></div>
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-archive-list no-wrapper-with-spacing with-header" id="fragment-42823">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Archive</div></div>
+<div class="content-fragment-content">
+
+		<div class="content-list-header"></div>
+		<div class="content-list-name">Archives</div>
+		<ul class="content-list">
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2010/01.aspx">January 2010</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/11.aspx">November 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/09.aspx">September 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/07.aspx">July 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/06.aspx">June 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2009/05.aspx">May 2009</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/11.aspx">November 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/10.aspx">October 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/09.aspx">September 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/08.aspx">August 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/07.aspx">July 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/06.aspx">June 2008</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/05.aspx">May 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/04.aspx">April 2008</a> (1)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/03.aspx">March 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/02.aspx">February 2008</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2008/01.aspx">January 2008</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/12.aspx">December 2007</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/11.aspx">November 2007</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/10.aspx">October 2007</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/09.aspx">September 2007</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/08.aspx">August 2007</a> (3)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/07.aspx">July 2007</a> (3)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/06.aspx">June 2007</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/05.aspx">May 2007</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/04.aspx">April 2007</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/03.aspx">March 2007</a> (8)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/02.aspx">February 2007</a> (9)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2007/01.aspx">January 2007</a> (7)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/12.aspx">December 2006</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/11.aspx">November 2006</a> (11)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/10.aspx">October 2006</a> (20)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/09.aspx">September 2006</a> (5)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/08.aspx">August 2006</a> (6)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/07.aspx">July 2006</a> (17)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/06.aspx">June 2006</a> (18)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/02.aspx">February 2006</a> (2)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2006/01.aspx">January 2006</a> (4)</li>
+	
+		<li class="content-item"><a class="internal-link view-post-archive-list" href="/b/noahc/archive/2005/12.aspx">December 2005</a> (1)</li>
+	
+		</ul>
+		<div class="content-list-footer"></div>
+	
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+</div>
+</div>
+<div class="layout-region content" id="ctl00_content_ctl00_content">
+<div class="layout-region-inner content"><div class="content-fragment blog-title full-border" id="fragment-42824">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-content">
+<h1 class="title">
+	    
+			        
+			    
+	                
+			    
+	</h1></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-bread-crumbs no-wrapper" id="fragment-42825">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-content">
+
+
+<div class="breadcrumb-list-header"></div>
+<div class="breadcrumb-list">
+	<span class="breadcrumb-item"><a class="internal-link view-home" href="/">MSDN Blogs</a></span>
+  
+	
+
+	
+			<span class="separator"> > </span>
+			<span class="breadcrumb-item">
+		<a href="/b/noahc/">Noah Coad</a>
+			</span>
+		
+	
+	
+
+	
+</div>
+<div class="breadcrumb-list-footer"></div>
+</div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+<div class="content-fragment blog-post-list no-wrapper with-header" id="fragment-42826">
+<div class="content-fragment-inner msdn-content-fragment-inner"><div class="content-fragment-top msdn-content-fragment-top"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div><div class="content-fragment-header"><div>Posts</div></div>
+<div class="content-fragment-content">
+
+
+<div class="navigation-list-header"></div>
+<ul class="navigation-list post-list">
+	<li class="navigation-item"><a class="internal-link rss" href="/b/MainFeed.aspx?Type=BlogsOnly"><span></span>Subscribe via RSS</a></li>
+	
+</ul>
+<div class="navigation-list-footer"></div>
+
+<div id="ctl00_content_ctl00_w_42826__99b325_ctl00_ctl00_ctl00_PostListWrapper"><input type="hidden" name="ctl00$content$ctl00$w_42826$_99b325$ctl00$ctl00$ctl00$PostListWrapper" value="true:" />
+        
+
+        
+
+        
+
+        <div class="filter">
+            <div class="query-type">
+		        <span class="filter-label">Sort by: </span>
+                <span class="filter-option selected"><a href="/b/noahc/default.aspx?PostSortBy=MostRecent&amp;PageIndex=1">Most Recent</a></span>
+		        <span class="separator">|</span>
+                <span class="filter-option"><a href="/b/noahc/default.aspx?PostSortBy=MostViewed&amp;PageIndex=1">Most Views</a></span>
+		        <span class="separator">|</span>
+                <span class="filter-option"><a href="/b/noahc/default.aspx?PostSortBy=MostComments&amp;PageIndex=1">Most Comments</a></span>
+            </div>
+            <div class="view-type">
+                
+				        <span class="filter-option selected">						
+			        
+                    <a href="#" onclick="ctl00_content_ctl00_w_42826__99b325_ctl00_ctl00_ctl00_PostListWrapper.Reload('List'); return false;" title="Excerpt View" class="internal-link view-list">Excerpt View</a>
+                </span>
+                <span class="separator">|</span>
+                
+				        <span class="filter-option">						
+			        
+                    <a href="#" onclick="ctl00_content_ctl00_w_42826__99b325_ctl00_ctl00_ctl00_PostListWrapper.Reload('Detail'); return false;" title="Full Post View" class="internal-link view-detail-list">Full Post View</a>
+                </span>
+            </div>
+        </div>
+
+
+        
+	            <div class="content-list-header standard"></div>
+	            <ul class="content-list standard">
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2010/01/12/farewell-microsoft.aspx"><span></span>Farewell Microsoft</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 2 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">0</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">After three Visual Studio releases and five and a half years with Microsoft, Iâ€™m moving back to Texas! My journey began on a mysterious new product code named â€œBurtonâ€, which became Visual Studio Team System.&#160; Those first three years with VSTS shipping...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2009/11/12/way-to-get-visual-studio-professional-for-free.aspx"><span></span>Get Visual Studio Professional for Free (for Students and Small Businesses)</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 3 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">0</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Microsoft wants you to be able to use the Professional version of its software development tools and is making it easy for students and new businesses to get started.&#160; These are essentially free MSDN subscriptions that include VS Pro, SQL, Expression...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2009/09/09/set-difference-minus-operation-with-linq-in-c.aspx"><span></span>Set Difference Minus Operation with LINQ in C#</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 3 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">4</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Sometimes you want to use a Difference (or Minus) set operation which goes like this: Give me all elements from set A that do not exist in set B.&#160; Or simply put A â€“ B.&#160; The LINQ Except method does this if both sets A and B are of the same type...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2009/07/06/5-years-at-microsoft.aspx"><span></span>5 Years At Microsoft</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 3 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">4</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Five years ago today I walked into Microsoft building 41 as green as the first day of college.&#160; This entire time Iâ€™ve been in the Developer Division with the pleasure to work on improving some of the best software development tools in the industry...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2009/06/04/eject-or-undock-a-laptop-pc-from-command-line-or-c.aspx"><span></span>Eject or Undock a Laptop PC from Command Line or C#</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 3 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">4</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Took me awhile to find this, so it is worth sharing.&#160; If you have a computer (usually laptop, notebook, etc) with a docking station and want to tell the PC to undock itself from the station from the command line, this is it.&#160; For me the scenario...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2009/05/20/visual-studio-2010-beta-1-released.aspx"><span></span>Visual Studio 2010 Beta 1 Released</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 3 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">0</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">We just released VS2010 Beta 1 to the web for public download !!&#160; This is very exciting as my team, the Visual Studio Platform (VSP) team, has made tremendous effort and new functionality in this release of VS.&#160; My VSP team is specifically responsible...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/11/10/1tb-external-hdd-for-100.aspx"><span></span>1TB External USB HDD for $100</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">0</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">I was just browsing my favorite computer supplier, newegg.com, when I came across this awesome deal.&#160; It is a 1 TB &quot;Hammer Storage&quot; USB 2.0 external drive.&#160; Sure it's not a major brand and the $100 is after a $20 mail-in rebate, but...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/10/08/don-t-vote.aspx"><span></span>Don't Vote</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">0</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">http://www.collegehumor.com/video:1832128 &#160; (tis the seasonâ€¦) (thanks to noah's mark )</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/09/23/delegate-type-inference-in-c.aspx"><span></span>Delegate Type Inference in C#</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">2</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Today I saw some C# language syntax that made me think, &quot;hey, wait a minute, I didn't know you could do that!&quot;, so perhaps it'll be new to someone else too.&#160; Honestly, I don't know how I missed this memo. Let's start off with the code,...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/09/21/rss-feeds-for-ebay-searches.aspx"><span></span>RSS Feeds for eBay Searches</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">5</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">RSS feeds are popping up right and left these days for everything from news, to friendsâ€™ pictures, to Internet searches.&#160; Recently I discovered that eBay has RSS feeds for auction searches.&#160; It is really handy to keep an eye out for those unique...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/08/22/free-ipod-nano-from-keybank.aspx"><span></span>Free iPod Nano from KeyBank</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">12</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Update (9/4/08): Looks like KeyBank has ended this promotion by now.&#160; Who knows, maybe theyâ€™ll try again in the future. KeyBank is giving away a free iPod Nano when you open an account!&#160; About six months back Dawn and I got our spiffy iPod Nano...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/07/02/thinkgeek-gadget-toy-love.aspx"><span></span>ThinkGeek, Gadget Toy Love</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">4</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">What true geek doesnâ€™t just love the site ThinkGeek.com ? &#160; Where one can fulfill their gizmo, t-shirt, poster, plant, science, toy craze of nerddom.&#160; Iâ€™ve had a number of items from the site on my wishlist through a few birthdays and Christmas...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/06/25/capturing-one-s-stream-of-consciousness-in-onenote.aspx"><span></span>Capturing One's &quot;Stream of Consciousness&quot; in OneNote</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">2</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Much of the time on the PC is spent rapidly moving from one task to another so quickly that it can be a challenge to keep context of all the projects, web sites, files, thoughts, etc oneâ€™s been working with throughout the day. Itâ€™s the bane of all PC...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/06/23/embedded-ie-text-size-too-small-or-large.aspx"><span></span>Embedded IE Text Size Too Small (or Large)</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">13</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Ever notice the text or font in applications that use an embedded Internet Explorer just isnâ€™t the right size?&#160; Either too small or large?&#160; Iâ€™ve encountered this in a number of apps including Microsoft HTML Help Control (for .chm files), Windows...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/06/14/windows-hot-keys-with-autohotkey.aspx"><span></span>Windows Hot Keys with AutoHotKey</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">10</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Iâ€™m a big fan of keeping my hands on the keyboard as much as possible and having real quick easy â€˜one-touchâ€™ access to my favorite apps, web sites, and tasks.&#160; Itâ€™s just amazing how much more productive one can be when using the keyboard instead...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/06/02/best-of-youtube.aspx"><span></span>Best of YouTube</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">1</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">With all the video's being posted these days, it can be a lot of fun to go trolling through YouTube, Soapbox, Google Vids, etc, but it can be quite time consuming to find the creme of the crop.&#160; The time I have to watch videos is usually not when...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/05/30/awesome-screen-image-video-capture-with-jing.aspx"><span></span>Awesome Screen Image + Video Capture with Jing</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">1</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">TechSmith, makers of my (up to now) favorite SnagIt and Camtasia have created the Jing Project , a new screen image &amp; video capture tool.&#160; It is slick, simple, easy, and fun.&#160; I just installed it and am loving it.&#160; Right now it's complete...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/05/11/garmin-nuvi-260-gps.aspx"><span></span>Garmin Nuvi 260 GPS</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">23</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">I love my Garmin Nuvi!&#160; It is simple, elegant, easy to use, helpful, and effective.&#160; The roads in Seattle are laid out far differently from what I was used to in Texas, and this makes navigating them a breeze.&#160; When we're on trips, it finds...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/04/16/pull-web-service-data-into-excel.aspx"><span></span>Pull Web Service Data into Excel</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">14</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Visual Studio 2008 has great Office 2007 integration with the ability to essentially open an Excel worksheet from within VS and add C# code as if it was a Windows Forms application.&#160; Just today an acquaintance asked how to pull data off the web and...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/03/28/noahcoad-wants-to-keep-up-with-you-on-twitter.aspx"><span></span>noahcoad wants to keep up with you on Twitter</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">0</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">I'm giving Twitter a try!&#160; What is Twitter?&#160; Simply put, it's short 140 character or less 'instant message like' updates.&#160; My take on it is that I can use it to post interesting or funny little tidbits of info that I'd normally like to...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/03/10/hard-drive-pricing-sweet-spot.aspx"><span></span>Hard Drive Pricing Sweet Spot</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">2</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Every 8-12 month I take a look at the going prices of hard drives as I'm looking to expand my family's storage capacity.&#160; To that end, I like to take a look at what drives are going for and make a little chart like this that shows the price one's...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/02/18/speaking-at-teched-2008.aspx"><span></span>Speaking at TechEd 2008: VS 2008 IDE Tips &amp; Tricks</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">3</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">&#160;&#160; My session entitled Visual Studio 2008 IDE Tips and Tricks has been accepted!&#160; I've got a lot of ideas already but am looking forward to researching tips &amp; tricks from the community, MVPs, MS devs, blogs, etc.&#160; Here's the abstract...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/02/12/boycott-starbucks-support-tully-s.aspx"><span></span>Boycott Starbucks, Support Tully's</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">3</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">Simply put, Starbucks charges for their wireless Internet access, Tully's is completely free.&#160; I'm not a big coffee drinker (my drink: grande soy mocha 1-shot decaf w/ whip) but I hear from my Seattlites that Tully's coffee is better too.&#160; If...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/02/11/netflix-kills-hd-dvd.aspx"><span></span>Netflix Kills HD DVD</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">2</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">This is it, the final stake nailed in the HD DVD coffin.&#160; HD DVD has been on a sinking ship, particularly since Warner Bros. turned their back on HD DVD in favor of Blu-ray .&#160; I've been following this (VHS vs Betamax like) challenge in high...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        <li class="content-item">
+			        <div class="abbreviated-post-header"></div>
+			        <div class="abbreviated-post">
+			            <div class="post-application">
+		                        <span class="label"></span>
+		                        <span class="value"><a class="internal-link view-application" href="/b/noahc/"><span></span>Noah Coad</a></span>
+			                </div>
+				        <h4 class="post-name"><a class="internal-link view-post" href="/b/noahc/archive/2008/02/06/my-moo-cards.aspx"><span></span>My Moo Cards</a></h4>
+				        
+            <div class="post-date">
+		        <span class="label">Posted</span>
+		        <span class="value">over 4 years ago</span>
+	        </div>
+                        <div class="post-author">
+                            <span class="msdn-post-author-by">by</span>
+                            <span class="avatar"><a href="/3849/ProfileUrlRedirect.ashx"><img src="/resized-image.ashx/__size/32x32/__key/communityserver-components-avatars/00-00-00-38-49/4TFKVFZLSXNV.jpg" alt="" style="border-width:0px;" /></a></span>
+                            
+                            <span class="profile-usercard-hover" data-profile-userid='00000000-0000-0000-0000-000000000000'>
+                                <span class="user-name"><a class="internal-link view-user-profile" href="/3849/ProfileUrlRedirect.ashx"><span></span>noahc</a></span>
+                            
+                                
+                            </span>
+                        </div>
+				        
+	                    <div class="post-attributes">
+		                        <div class="attribute-list-header"></div>
+                                <ul class="attribute-list">
+                                    <li class="attribute-item post-reply-count">
+                                        <span class="attribute-value">0</span>
+                                        <span class="attribute-name">Comments</span>
+                                    </li>
+                                </ul>
+                                <div class="attribute-list-footer"></div>
+                            </div>
+        				
+				        
+						        <div class="post-summary">My Moo MiniCards arrived!&#160; I've been eyeing these little things for over a year now.&#160; They're like a 'hip' little full color business card replacement.&#160; A coworker gave me one to keep in touch and I was surprised by the impressive high...</div>
+					        
+        				
+			        </div>
+			        <div class="abbreviated-post-footer"></div>
+		        </li>
+	        
+		        </ul>
+		        <div class="content-list-footer standard"></div>
+	        
+
+        <div class="pager">
+        <span class="summary">Page 1 of 7 (175 items)</span>
+    <a class="selected" href="/b/noahc/default.aspx?PageIndex=1"><span>1</span></a><span class="separator"></span><a class="page" href="/b/noahc/default.aspx?PageIndex=2"><span>2</span></a><span class="separator"></span><a class="page" href="/b/noahc/default.aspx?PageIndex=3"><span>3</span></a><span class="separator"></span><a class="page" href="/b/noahc/default.aspx?PageIndex=4"><span>4</span></a><span class="separator"></span><a class="page" href="/b/noahc/default.aspx?PageIndex=5"><span>5</span></a><span class="separator"></span><span class="separator"></span><a class="last" href="/b/noahc/default.aspx?PageIndex=7"><span>&raquo;</span></a></div>
+    </div></div>
+<div class="content-fragment-footer"></div>
+<div class="content-fragment-bottom msdn-content-fragment-bottom"><div class="r1 msdn-r1"></div><div class="r2 msdn-r2"></div><div class="r3 msdn-r3"></div><div class="r4 msdn-r4"></div></div></div></div>
+</div>
+</div>
+</div>
+<div class="layout-footer"></div>
+</div></div>
+			<div class="footer-fragments-header"></div>
+<div class="footer-fragments"><div class="footer-fragment copyright-info" id="footer-fragment-1402503690">
+
+<ul class="footer-fragment-links">
+    <li class="message copyright">Â© 2012 Microsoft Corporation.</li>
+	<li class="message termsOfService"><a href="http://msdn.microsoft.com/cc300389">Terms of Use</a> </li>
+    <li class="message trademarks"><a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx">Trademarks</a> </li>
+    <li class="message privacy"><a href="http://www.microsoft.com/info/privacy.mspx">Privacy Statement</a> </li>
+    <li class="message abuse">
+    
+            <a id="ctl00_footer_fragment_1402503690__99b325_ctl00_ctl00_ctl01_lnkAbuse" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$footer_fragment_1402503690$_99b325$ctl00$ctl00$ctl01$lnkAbuse&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Report Abuse</a>
+        
+    </li>
+    
+    <li class="message version">5.6.131.143</li>
+</ul></div><div class="footer-fragment omniture-footer-fragment" id="footer-fragment-1402503691">
+
+
+<script src="http://i1.blogs.msdn.com/rrcontent/2569210a296af7a76a1f0a41cafcfd42-4797f790eaf0aee5be80d629d76b8085-RequestReducedScript.js" type="text/javascript" ></script>
+        <noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+        src="http://msstomsdnblogs.112.2O7.net/b/ss/msstomsdnblogs/1/H.20.2--NS/0"
+        height="1" width="1" border="0" alt="" /></a></noscript>
+
+</div></div>
+<div class="footer-fragments-footer"></div>
+		
+<script type="text/javascript">
+// <![CDATA[
+ctl00_content_ctl00 = new ContentFragmentPageCustomCallback('ctl00_content_ctl00',new Function('mode','parameters','callback','errorCallback','context','ctl00_content_ctl00_ctl00._doCallback(mode+\':\'+parameters,callback,context,errorCallback);'));
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('\/utility\/loading.htm',['modal'],['modal-title','modal-title-2','modal-title-3','modal-title-4'],['modal-close'],['modal-content','modal-content-2'],['modal-footer','modal-footer-2','modal-footer-3'],['modal-resize'],['modal-mask'],10000,false,true,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_content_ctl00_ctl00 = new Telligent_CallbackManager('ctl00_content_ctl00_ctl00','ctl00$content$ctl00$ctl00','aspnetForm');
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_content_ctl00_w_42826__99b325_ctl00_ctl00_ctl00_PostListWrapper = new DelayedContent('ctl00_content_ctl00_w_42826__99b325_ctl00_ctl00_ctl00_PostListWrapper','ctl00_content_ctl00_w_42826__99b325_ctl00_ctl00_ctl00_PostListWrapper','ctl00_content_ctl00._customCallback(\'fragment-42826\',\'ctl00$content$ctl00$w_42826$_99b325$ctl00$ctl00$ctl00$PostListWrapper\',argument,null,callback,null)',true,true,null);
+// ]]>
+</script></form>
+       
+    <script type="text/javascript">
+        $(window).load(function () {
+            $.getScript('http://widgets.membership.microsoft.com/v1/loader.js?brand=msdn&lang=en-US', function () {
+            });
+        });
+    </script>
+    
+	
+        <script type="text/javascript">$('div.breadcrumb-list span:last a').addClass('last');</script></body>
+</html>

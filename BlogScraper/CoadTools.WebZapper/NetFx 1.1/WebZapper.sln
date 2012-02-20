@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoadTools.WebZapper", "CoadTools.WebZapper.csproj", "{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebZapperTest", "WebZapperTest\WebZapperTest.csproj", "{3711BF83-9CBD-440D-928E-13A410DB8835}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoadTools.WebZapper.Specialized", "WebZapper.Specialized\CoadTools.WebZapper.Specialized.csproj", "{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Debug.ActiveCfg = Debug|.NET
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Debug.Build.0 = Debug|.NET
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Release.ActiveCfg = Release|.NET
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Release.Build.0 = Release|.NET
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Debug.ActiveCfg = Debug|.NET
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Debug.Build.0 = Debug|.NET
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Release.ActiveCfg = Release|.NET
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Release.Build.0 = Release|.NET
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Debug.ActiveCfg = Debug|.NET
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Debug.Build.0 = Debug|.NET
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Release.ActiveCfg = Release|.NET
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

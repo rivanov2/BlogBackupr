@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WebZapper">
+</Property><Property Name="Solution File" Value="C:\Noah\Projects\CoadTools\WebZapper\NetFx 2.0\WebZapper.sln">
+</Property><Property Name="Date" Value="Thursday, December 21, 2006">
+</Property><Property Name="Time" Value="0:35 AM">
+</Property></Properties><Event ErrorLevel="0" Project="CoadTools.WebZapper" Source="CoadTools.WebZapper.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="CoadTools.WebZapper" Source="CoadTools.WebZapper.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="WebZapperTest" Source="WebZapperTest\WebZapperTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WebZapperTest" Source="WebZapperTest\WebZapperTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CoadTools.WebZapper.Specialized" Source="WebZapper.Specialized\CoadTools.WebZapper.Specialized.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CoadTools.WebZapper.Specialized" Source="WebZapper.Specialized\CoadTools.WebZapper.Specialized.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WebZapper.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WebZapper.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WebZapperTest" Source="WebZapperTest\WebZapperTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CoadTools.WebZapper.Specialized" Source="WebZapper.Specialized\CoadTools.WebZapper.Specialized.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

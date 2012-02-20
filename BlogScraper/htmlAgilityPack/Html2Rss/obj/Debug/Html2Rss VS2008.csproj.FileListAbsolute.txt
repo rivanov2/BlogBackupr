@@ -1,0 +1,8 @@
+C:\r\proj\htmlAgilityPack\Html2Rss\bin\Debug\Html2Rss.exe
+C:\r\proj\htmlAgilityPack\Html2Rss\bin\Debug\Html2Rss.pdb
+C:\r\proj\htmlAgilityPack\Html2Rss\bin\Debug\HtmlAgilityPack.dll
+C:\r\proj\htmlAgilityPack\Html2Rss\bin\Debug\HtmlAgilityPack.pdb
+C:\r\proj\htmlAgilityPack\Html2Rss\bin\Debug\HtmlAgilityPack.xml
+C:\r\proj\htmlAgilityPack\Html2Rss\obj\Debug\ResolveAssemblyReference.cache
+C:\r\proj\htmlAgilityPack\Html2Rss\obj\Debug\Html2Rss.exe
+C:\r\proj\htmlAgilityPack\Html2Rss\obj\Debug\Html2Rss.pdb

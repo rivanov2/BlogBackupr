@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoadTools.WebZapper", "CoadTools.WebZapper.csproj", "{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebZapperTest", "WebZapperTest\WebZapperTest.csproj", "{3711BF83-9CBD-440D-928E-13A410DB8835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoadTools.WebZapper.Specialized", "WebZapper.Specialized\CoadTools.WebZapper.Specialized.csproj", "{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7960DC5-2E22-46F6-9EDB-D4D8A44718CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3711BF83-9CBD-440D-928E-13A410DB8835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739B1BEB-24B6-48CB-8980-2DBB10E0F37F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

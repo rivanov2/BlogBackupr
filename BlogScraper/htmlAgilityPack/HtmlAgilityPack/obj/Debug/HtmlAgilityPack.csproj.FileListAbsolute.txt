@@ -1,0 +1,6 @@
+C:\r\proj\htmlAgilityPack\HtmlAgilityPack\bin\Debug\HtmlAgilityPack.XML
+C:\r\proj\htmlAgilityPack\HtmlAgilityPack\bin\Debug\HtmlAgilityPack.dll
+C:\r\proj\htmlAgilityPack\HtmlAgilityPack\bin\Debug\HtmlAgilityPack.pdb
+C:\r\proj\htmlAgilityPack\HtmlAgilityPack\obj\Debug\ResolveAssemblyReference.cache
+C:\r\proj\htmlAgilityPack\HtmlAgilityPack\obj\Debug\HtmlAgilityPack.dll
+C:\r\proj\htmlAgilityPack\HtmlAgilityPack\obj\Debug\HtmlAgilityPack.pdb

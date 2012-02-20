@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="eBayData" targetNamespace="http://tempuri.org/Dataset1.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Dataset1.xsd" xmlns:mstns="http://tempuri.org/Dataset1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="eBayData" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="eBayItem">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="StartPrice" type="xs:float" minOccurs="0" />
+							<xs:element name="CurrentPrice" type="xs:float" minOccurs="0" />
+							<xs:element name="EndPrice" type="xs:float" minOccurs="0" />
+							<xs:element name="ItemNumber" minOccurs="0" type="xs:int" />
+							<xs:element name="Catagory" type="xs:int" minOccurs="0" />
+							<xs:element name="NumBids" type="xs:int" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CurrentStatus" type="xs:int" minOccurs="0" />
+							<xs:element name="Quantity" type="xs:int" minOccurs="0" />
+							<xs:element name="MaxBid" type="xs:float" minOccurs="0" />
+							<xs:element name="TimeStamp" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
